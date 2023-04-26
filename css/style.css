@@ -1,0 +1,144 @@
+* {
+    font-family: Arial;
+}
+a {
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    background-color: #4f4f4f;
+}
+#container {
+    width: 810px;
+    height: 700px;
+    margin: 0 auto;
+    background-color: #B50000;
+}
+#inside {
+    width: 100%;
+    height: 800px;
+    background: url('../img/lobby/background.jpg');
+    background-repeat: no-repeat;
+    position: relative;
+}
+#up {
+    width: 591px;
+    margin: 0 auto;
+}
+#up div, #down, #back {   
+    color: #fff;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: #6E0000;
+    text-shadow: 0px 5px 3px #000;
+    box-shadow: 0px 5px 5px #000;
+    text-decoration: none;
+}
+#up div:hover, #down:hover, #back:hover {
+    background-color: #B50000;
+}
+#up div {
+    text-align: center;
+    font-size: xx-large;
+    float: left;
+    padding: 4px 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+#down {
+    width: 160px;
+    text-align: center;
+    font-size: small;
+    padding: 4px 10px;
+    margin: auto;
+    clear: both;
+    margin-bottom: 20px;
+}
+
+#back {
+    position: absolute;
+    top: 655px;
+    width: 100px;
+    text-align: center;
+    font-size: medium;
+    padding: 4px 10px;
+    clear: both;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+#back:hover {
+    cursor: pointer;
+}
+#p1, #p2, #p3, #logoBB, #tPremio, #backP, #lugar, #producto, #backT, #tTermi, #tInstruc {
+    position: absolute;
+}
+
+#logoBB { top: 15px; left: 35px; }
+#tPremio { top: 55px; left: 460px; }
+#backP { top: 30px; }
+#lugar { top: 160px; left: 35px; }
+#producto { top: 50px; left: 480px; }
+#backT { top: 30px; }
+#tTermi { top: 70px; left: 250px; }
+#tInstruc { top: 60px; left: 250px; }
+
+#textos {
+    position: absolute;
+    top: 200px;
+    left: 90px;
+    width: 600px;
+    height: 450px;
+    color: #fff;
+    padding-right: 30px;
+    overflow-y: scroll;
+}
+#list li {
+    margin-bottom: 5px;
+}
+
+#p1, #p2, #p3 {
+    color: #fff;
+    width: 275px;
+    left: 250px;
+}
+#p1 {
+    top: 210px;
+}
+#p2 {
+    top: 365px;
+}
+#p3 {
+    top: 530px;
+}
+footer {
+    width: 810px;
+    position: absolute;
+    bottom: 0px;
+}
+#foot1, #foot2 {
+    width: 100%;
+    bottom: 0px;
+    background-color: #000;
+    background-repeat: no-repeat;
+}
+#foot1 {
+    height: 30px;
+    opacity: 0.6;
+    text-align: center;
+}
+#foot2 {
+    height: 70px;
+    opacity: 0.8;
+}
+#foot2 span {
+    float: left;
+    color: #7B0000;
+    margin: 13px;
+    font-size: 9pt;
+    text-decoration: none;
+}
+#foot2 a img {
+    float: right;
+    margin: 25px;
+    border: none;
+}

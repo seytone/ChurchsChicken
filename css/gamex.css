@@ -1,0 +1,412 @@
+* {
+    font-family: Arial;
+}
+body {
+    margin: 0;
+    background-color: #4f4f4f;
+}
+#container {
+    width: 810px;
+    height: 900px;
+    margin: 0 auto;
+    background-color: #B50000;
+}
+#inside {
+    width: 100%;
+    height: 760px;
+    background: url('../img/game/background.jpg');
+    background-repeat: no-repeat;
+    position: relative;
+}
+#logo, .profile, #clock, #rango, #tiempos, .time, .evento {
+    position: absolute;
+}
+#prof0, #prof1, #prof2, #prof3 {
+    position: absolute;
+    z-index: 100;
+}
+#carreras1{
+	font-family: Digits;
+    color: #fff;
+    background: none;
+    border: none;
+    margin: 0 auto;
+	 top: 275px;
+    left: 620px;
+	font-size:70px;
+}
+#carreras2{
+	font-family: Digits;
+    color: #fff;
+    background: none;
+    border: none;
+    margin: 0 auto;
+	 top: 386px;
+    left: 620px;
+	font-size:70px;
+}
+#carreras3{
+	font-family: Digits;
+    color: #fff;
+    background: none;
+    border: none;
+    margin: 0 auto;
+	 top: 497px;
+    left: 620px;
+	font-size:70px;
+}
+#nombres_ultimos4{
+  	color: #fff;
+    background: none;
+    border: none;
+    margin: 0 auto;
+	 top: 590px;
+    left:90px;
+	font-size:20px;
+	text-shadow: 0.1em 0.1em #333;
+	position:absolute;
+		
+}
+#nombres_ultimos5{
+  	color: #fff;
+    background: none;
+    border: none;
+    margin: 0 auto;
+	 top: 640px;
+     left:90px;
+	font-size:20px;
+	text-shadow: 0.1em 0.1em #333;
+	position:absolute;
+}
+#nombres_ultimos6{
+  	color: #fff;
+    background: none;
+    border: none;
+    margin: 0 auto;
+	 top: 690px;
+     left:90px;
+	font-size:20px;
+	text-shadow: 0.1em 0.1em #333;
+	position:absolute;	
+}
+#nombres1{
+    color: #fff;
+    background: none;
+    border: none;
+    margin: 0 auto;
+	 top: 305px;
+     left: 200px;
+	font-size:25px;
+	text-shadow: 0.1em 0.1em #333;
+}
+#nombres2{
+    color: #fff;
+    background: none;
+    border: none;
+    margin: 0 auto;
+	 top: 416px;
+    left: 200px;
+	font-size:25px;
+	text-shadow: 0.1em 0.1em #333;
+}
+#nombres3{
+    color: #fff;
+    background: none;
+    border: none;
+    margin: 0 auto;
+	 top: 525px;
+    left: 200px;
+	font-size:25px;
+	text-shadow: 0.1em 0.1em #333;
+}
+#prof0 {
+    top: 240px;
+    left: 70px;
+    text-align: center;
+}
+#prof1 {
+    top: 260px;
+    left: 90px;
+}
+#prof2 {
+    top: 372px;
+    left: 90px;
+}
+#prof3 {
+    top: 485px;
+    left: 90px;
+}
+.profile #bg {
+    width: 70px;
+    height: 70px;
+    padding: 6px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: url('../img/game/profile.png');
+}
+.profile #tx {
+    font-size: small;
+}
+#logo {
+    top: 20px;
+    left: 25px;
+}
+#clock { 
+    top: 20px;
+    left: 231px;
+    width: 355px;
+    height: 450px;
+    z-index: 100;
+    background: url('../img/game/clock.png');
+    background-repeat: no-repeat;
+}
+#rango {
+    top: 65px;
+    left: 590px;
+}
+#tiempos {
+    top: 143px;
+    left: 585px;
+    width: 220px;
+}
+#tiempos div {
+    width: 20px;
+    margin: 7.5%;
+    padding: 8px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+    float: left;
+    clear: both;
+}
+#tiempos b {
+    color: #fff;
+    font-size: small;
+}
+.time {
+    top: 195px;
+    width: 350px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Digits;
+    color: #fff;
+    background: none;
+    border: none;
+    margin: 0 auto;  
+}
+.evento {
+    top: 250px;
+    width: 350px;
+    text-align: center;
+    color: #000;
+    background: none;
+    font-size: 46px;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px #fff;
+}
+.evento, .showT, .strike, .out, .base {
+    border: none;
+    background: none;
+    font-weight: bold;
+}
+#botones {
+    top: 320px;
+    left: 280px;
+    position: absolute;
+    z-index: 10000;
+}
+.jugar, .nuevo {
+    width: 100px !important;
+    top: 37px;
+    left: 77px;
+}
+.nuevo {
+    display: none;    
+}
+.clear {
+    top: 32px;
+    left: 178px;
+    width: 60px;
+    height: 60px;
+    background: url('../img/game/rojo.png') center no-repeat;
+}
+.buttonP {
+    background: url('../img/game/verde.png') center no-repeat;
+}
+.buttonS {
+    background: url('../img/game/amarillo.png') center no-repeat;
+    display: none;
+}
+.buttonP, .buttonS {
+    top: 32px;
+    left: 16px;
+    width: 60px;
+    height: 60px;
+}
+.clear, .buttonP, .buttonS {
+    position: absolute;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+}
+.jugar, .nuevo {
+    position: absolute;
+    padding: 10px;
+    width: 80px;
+    height: 70px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #212026;
+    border: 1px solid gray;
+    border-radius: 40px 40px 10px 10px;
+}
+.jugar:active, .nuevo:active {
+    border: 1px solid white;
+}
+.camp, .carrera, .b1, .b2, .b3, .b4 {
+    position: absolute;
+    float: left;
+}
+.camp {
+    top: 400px;
+    left: 395px;
+    width: 407px;
+    height: 310px;
+    clear: both;
+    position: relative;
+    background: url('../img/game/camp.png');
+    background-repeat: no-repeat;
+}
+.carrera {
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 100px;;
+    text-align: center;
+    font-weight: bold;
+    font-size: 46px;
+    padding: 0px;
+}
+.b1, .b2, .b3, .b4 {
+    width: 55px;
+    height: 55px;
+    background: url('../img/game/miniChurch.png');
+    display: none;
+}
+.b1 {
+    top: 80px;
+    left: 335px;
+}
+.b2 {
+    top: -10px;
+    left: 177px;
+}
+.b3 {
+    top: 80px;
+    left: 23px;
+}
+.b4 {
+    top: 215px;
+    left: 177px;
+}
+#friend {
+    background-image: url('../img/game/friends.png');
+    position: absolute;
+    top: 685px;
+    left: 60px;
+    width: 350px;
+    height: 55px;
+}
+#friend:hover {
+    background-image: url('../img/game/friends1.png');
+}
+#foot1, #foot2 {
+    float: left;
+    width: 100%;
+    height: 70px;
+    bottom: 0px;
+    background-color: #000;
+    background-repeat: no-repeat;
+}
+#foot1 {
+    opacity: 0.6;
+    text-align: center;
+}
+#foot1 #butons {
+    width: 721px;
+    margin: 0 auto;
+}
+#foot1 .inn {
+    float:  left;
+    color: #fff;
+    padding: 4px 10px;
+    margin: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: #6E0000;
+    text-shadow: 0px 5px 3px #000;
+    box-shadow: 0px 5px 5px #000;
+    text-decoration: none;
+}
+#foot1 .inn:hover {
+    background-color: #B50000;
+}
+#foot2 {
+    opacity: 0.8;
+}
+#foot2 span {
+    float: left;
+    color: #7B0000;
+    margin: 13px;
+    font-size: 9pt;
+    text-decoration: none;
+}
+#foot2 a img {
+    float: right;
+    margin: 25px;
+    border: none;
+}
+.pierde {
+    display: none;
+    border: none;
+    color: #f00;
+    font-weight: bold;
+    background-color: #000;
+}
+.text {
+    color: #fff;
+    float: left;
+    position: absolute;
+    font-size: 42px;
+    margin: 0 auto;
+    text-shadow: 5px 5px 5px #000;
+}
+#all {
+    position: absolute;
+    float: left;
+}
+#status {
+    position: absolute;
+    float: left;
+    top: 500px;
+    left: 90px;
+}
+.strike, .out {
+    display: none;
+}
+#warning {
+    color: #fff;
+    width: 350px;
+    font-size: 20px;
+    display: none;
+}
+
+@font-face {
+    font-family: Digits;
+    src: url("../font/QuartzRegular.ttf") format("truetype");
+}
